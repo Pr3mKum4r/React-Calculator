@@ -1,0 +1,79 @@
+h1{
+    text-align: center;
+    color: rgb(1, 255, 247);
+    text-shadow: 0 0 3px #0800ff
+}
+
+
+.display{
+    margin: auto;
+    width:245px;
+    height: 105px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    background: rgba(255, 255, 255, 0.33);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.output{
+    margin: auto;
+    padding: 2px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: rgb(179, 184, 189, 0.8);
+    text-align: right;
+
+    background: rgba(255, 255, 255, 0.33);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.1px);
+-webkit-backdrop-filter: blur(7.1px);
+border: 1px solid rgba(33, 48, 200, 0.11);
+}
+
+.MainOutput{
+    font-size: large;
+    font-weight: bold;
+}
+
+.MiniOutput{
+    font-size: small;
+}
+
+.buttons{
+    margin: auto;
+    width:245px;
+    border: 3px solid blue;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #fffb05e7;
+    box-shadow: 5px 8px 8px 8px #888888;
+
+    background: rgba(255, 255, 255, 0.33);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(7.1px);
+-webkit-backdrop-filter: blur(7.1px);
+border: 1px solid rgba(33, 48, 200, 0.11);
+}
+button{
+    width: 50px;
+    height: 50px;
+    margin: 2px;
+    border-radius: 50px;
+    background-color: #73ff00;
+    font-size: small;
+    font-weight: bold;
+
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.6px);
+    -webkit-backdrop-filter: blur(6.6px);
+    border: 1px solid rgba(255, 255, 255, 0.36);
+}
+button:hover{
+    opacity: 0.6;
+    background-color: #0091ff;
+    font-weight: bolder;
+}
