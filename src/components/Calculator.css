@@ -72,7 +72,7 @@ button{
     -webkit-backdrop-filter: blur(6.6px);
     border: 1px solid rgba(255, 255, 255, 0.36);
 }
-button:hover{
+button:hover, button:active{
     opacity: 0.6;
     background-color: #0091ff;
     font-weight: bolder;
